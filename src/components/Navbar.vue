@@ -46,7 +46,7 @@ export default {
 .navbar-brand {
   font-weight: bold;
 }
-.navbar-item {
+.nav-item {
   font-weight: normal;
 }
 </style>

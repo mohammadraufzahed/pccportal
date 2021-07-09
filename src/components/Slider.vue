@@ -46,7 +46,8 @@
           <img src="static/img/slider.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>هدف</h5>
-            <p>شرکت راهکار هوشمند ایرانیان سالیان سال وقت و انرژی خود را برای تولید تکنولوژی های هوش مصنوعی صرف کرده تا بتواند به ارتقاء سطح اقتصادی کشور کمک کند.</p>
+            <p>شرکت راهکار هوشمند ایرانیان سالیان سال وقت و انرژی خود را برای تولید تکنولوژی های هوش مصنوعی صرف کرده تا
+              بتواند به ارتقاء سطح اقتصادی کشور کمک کند.</p>
           </div>
         </div>
       </div>
@@ -73,6 +74,12 @@ export default {
 <style scoped>
 .carousel-item img {
   width: 1024px;
-  height:480px;
+  height: 480px;
+}
+.carousel-caption h5 {
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-weight: normal;
 }
 </style>
